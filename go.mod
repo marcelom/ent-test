@@ -2,7 +2,10 @@ module github.com/marcelom/ent-test
 
 go 1.23.2
 
-require entgo.io/ent v0.14.1
+require (
+	entgo.io/ent v0.14.1
+	github.com/mattn/go-sqlite3 v1.14.16
+)
 
 require (
 	ariga.io/atlas v0.19.1-0.20240203083654-5948b60a8e43 // indirect
